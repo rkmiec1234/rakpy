@@ -4,6 +4,7 @@ import numpy as np
 from math import sqrt
 products = graphlab.SFrame('./data/amazon_baby_subset.gl/')
 mtcars = graphlab.SFrame('./data/mtcars.csv')
+#comment
 
 with open('./data/important_words.json', 'r') as f: # Reads the list of most frequent words
     important_words = json.load(f)
